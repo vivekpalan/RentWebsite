@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Rent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="signin-main">
+        
+        <div class="signin-contents">
+            <h1>Sign In</h1>
+            <form action="">
+                <input type="text" name="username" id="username" class="username" placeholder="Enter your Username" required>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <input type="password" name="password" id="password" class="password" placeholder="Enter your Password">
+        
+                <div class="remember">
+                    <input type="checkbox" name="check" id="check">
+                    <div class="text">Remember Me</div>
+                </div>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <!-- <?php
+        if($_SERVER['REQUEST_METHOD']==='POST'){
+            $username = $_POST['username'];
+            $email = $_POST['email'];
+            $password = $_POST['password'];
+
+            if($username==='Vivek31' && $email === 'vivek@gmail.com' && $password === '12345'){
+                header("Location: index.html");
+            }
+            else{
+                echo"<h3>Invalid credentials. Please Enter correct ones</h3>"
+            }
+        }
+    ?> -->
+    
+</body>
+</html>
